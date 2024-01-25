@@ -8,10 +8,10 @@ default: &default
 
 development:
   <<: *default
-  database: greeting_app_development
+  database: rails_app_development
 test:
   <<: *default
-  database: greeting_app_test
+  database: rails_app_test
 
 
 production:

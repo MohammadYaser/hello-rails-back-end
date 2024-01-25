@@ -8,8 +8,8 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
-Message.create(content: "Hello!")
-Message.create(content: "Hi there!")
-Message.create(content: "Greetings!")
-Message.create(content: "Welcome!")
-Message.create(content: "Salutations!")
+Message.create(content: "some message")
+Message.create(content: "this is another message!")
+Message.create(content: "hey there i am yaser!")
+Message.create(content: "how are you doing?")
+Message.create(content: "Nice to meet you!")
